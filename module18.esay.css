@@ -1,0 +1,30 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    margin-top: 50px;
+}
+
+/* Dizajnimi i kutisë */
+.box {
+    width: 200px;
+    height: 150px;
+    background-color: lightblue;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 15px;
+
+    /* Tranzicioni */
+    transition: transform 0.5s;
+}
+
+/* Transformimi kur vendosim mausin */
+.box:hover {
+    transform: rotate(10deg) scale(1.2);
+    background-color: lightgreen;
+}
